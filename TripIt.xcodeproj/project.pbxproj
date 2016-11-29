@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660D17421DEE2EDF00D167F4 /* CreateTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D17411DEE2EDF00D167F4 /* CreateTripViewController.swift */; };
+		660D17441DEE371800D167F4 /* Lobster_1.3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 660D17431DEE36B500D167F4 /* Lobster_1.3.otf */; };
+		660D17461DEE3C2600D167F4 /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 660D17451DEE3C2600D167F4 /* gradient.png */; };
+		660D17481DEE3F8D00D167F4 /* facebook_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 660D17471DEE3F8D00D167F4 /* facebook_logo.png */; };
 		666E5C2C1DD45571005156D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5C2B1DD45571005156D7 /* AppDelegate.swift */; };
 		666E5C2E1DD45571005156D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5C2D1DD45571005156D7 /* ViewController.swift */; };
 		666E5C311DD45571005156D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666E5C2F1DD45571005156D7 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		660D17411DEE2EDF00D167F4 /* CreateTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTripViewController.swift; sourceTree = "<group>"; };
+		660D17431DEE36B500D167F4 /* Lobster_1.3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Lobster_1.3.otf; path = ../../../../Downloads/Lobster_1.3.otf; sourceTree = "<group>"; };
+		660D17451DEE3C2600D167F4 /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gradient.png; path = ../../../../Downloads/gradient.png; sourceTree = "<group>"; };
+		660D17471DEE3F8D00D167F4 /* facebook_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_logo.png; path = ../../../../Desktop/facebook_logo.png; sourceTree = "<group>"; };
 		666E5C281DD45571005156D7 /* TripIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E5C2B1DD45571005156D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		666E5C2D1DD45571005156D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +108,11 @@
 				666E5C2B1DD45571005156D7 /* AppDelegate.swift */,
 				666E5C2D1DD45571005156D7 /* ViewController.swift */,
 				666E5C2F1DD45571005156D7 /* Main.storyboard */,
+				660D17411DEE2EDF00D167F4 /* CreateTripViewController.swift */,
 				666E5C321DD45571005156D7 /* Assets.xcassets */,
+				660D17451DEE3C2600D167F4 /* gradient.png */,
+				660D17431DEE36B500D167F4 /* Lobster_1.3.otf */,
+				660D17471DEE3F8D00D167F4 /* facebook_logo.png */,
 				666E5C341DD45571005156D7 /* LaunchScreen.storyboard */,
 				666E5C371DD45571005156D7 /* Info.plist */,
 			);
@@ -234,6 +246,9 @@
 			files = (
 				666E5C361DD45571005156D7 /* LaunchScreen.storyboard in Resources */,
 				666E5C331DD45571005156D7 /* Assets.xcassets in Resources */,
+				660D17441DEE371800D167F4 /* Lobster_1.3.otf in Resources */,
+				660D17461DEE3C2600D167F4 /* gradient.png in Resources */,
+				660D17481DEE3F8D00D167F4 /* facebook_logo.png in Resources */,
 				666E5C311DD45571005156D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +276,7 @@
 			files = (
 				666E5C2E1DD45571005156D7 /* ViewController.swift in Sources */,
 				666E5C2C1DD45571005156D7 /* AppDelegate.swift in Sources */,
+				660D17421DEE2EDF00D167F4 /* CreateTripViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +519,7 @@
 				666E5C521DD45571005156D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		666E5C531DD45571005156D7 /* Build configuration list for PBXNativeTarget "TripItTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +528,7 @@
 				666E5C551DD45571005156D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		666E5C561DD45571005156D7 /* Build configuration list for PBXNativeTarget "TripItUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +537,7 @@
 				666E5C581DD45571005156D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dvG-9p-uF3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lobster_1.3.otf">
+            <string>Lobster1.3</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -21,19 +28,154 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TripIt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zp9-KT-q2V">
-                                <rect key="frame" x="167" y="20" width="40" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient.png" translatesAutoresizingMaskIntoConstraints="NO" id="HlD-Od-kD5">
+                                <rect key="frame" x="-12" y="0.0" width="399" height="679"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f3X-g9-MPM">
+                                <rect key="frame" x="80" y="307" width="215" height="30"/>
+                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <color key="tintColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="s7Z-Yd-abj"/>
+                                </constraints>
                                 <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q6u-hl-eK8">
+                                <rect key="frame" x="80" y="358" width="215" height="30"/>
+                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <color key="tintColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="VEE-zv-odO"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vo8-Nd-4Dx">
+                                <rect key="frame" x="118" y="596" width="138" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="0fK-NG-8VG"/>
+                                    <constraint firstAttribute="width" constant="138" id="meq-Z8-zgc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lobster1.3" family="Lobster 1.3" pointSize="40"/>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <segue destination="tpW-kb-RwL" kind="show" id="Uzk-By-oIe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsc-p8-TAi">
+                                <rect key="frame" x="150" y="443" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="0CV-vg-bgm"/>
+                                    <constraint firstAttribute="width" constant="75" id="qSm-zV-SQ2"/>
+                                    <constraint firstAttribute="width" secondItem="gsc-p8-TAi" secondAttribute="height" multiplier="1:1" id="rkS-y7-av9"/>
+                                </constraints>
+                                <state key="normal" image="facebook_logo.png"/>
+                                <connections>
+                                    <segue destination="tpW-kb-RwL" kind="show" id="doI-46-pPh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log in to create a trip!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X14-xY-gij">
+                                <rect key="frame" x="74" y="176" width="226" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="inS-hG-bHA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lobster1.3" family="Lobster 1.3" pointSize="24"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Vo8-Nd-4Dx" secondAttribute="bottom" constant="19" id="4Rv-Q9-tjE"/>
+                            <constraint firstItem="f3X-g9-MPM" firstAttribute="leading" secondItem="Q6u-hl-eK8" secondAttribute="leading" id="96N-C1-q2F"/>
+                            <constraint firstItem="f3X-g9-MPM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="64" id="ByN-zv-0nS"/>
+                            <constraint firstItem="f3X-g9-MPM" firstAttribute="trailing" secondItem="Q6u-hl-eK8" secondAttribute="trailing" id="DHQ-bw-V79"/>
+                            <constraint firstItem="X14-xY-gij" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="58" id="DqA-VO-7SE"/>
+                            <constraint firstItem="gsc-p8-TAi" firstAttribute="centerX" secondItem="Vo8-Nd-4Dx" secondAttribute="centerX" id="HcE-XC-c6p"/>
+                            <constraint firstItem="Q6u-hl-eK8" firstAttribute="top" secondItem="f3X-g9-MPM" secondAttribute="bottom" constant="21" id="Iw5-Yv-Qa2"/>
+                            <constraint firstItem="gsc-p8-TAi" firstAttribute="top" secondItem="Q6u-hl-eK8" secondAttribute="bottom" constant="55" id="Iyp-Ot-0N5"/>
+                            <constraint firstItem="HlD-Od-kD5" firstAttribute="centerX" secondItem="Vo8-Nd-4Dx" secondAttribute="centerX" id="LKH-T0-CQa"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="HlD-Od-kD5" secondAttribute="bottom" constant="-12" id="OnO-b9-L51"/>
+                            <constraint firstItem="Q6u-hl-eK8" firstAttribute="centerX" secondItem="gsc-p8-TAi" secondAttribute="centerX" id="QA2-K5-Geh"/>
+                            <constraint firstItem="X14-xY-gij" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UnB-n5-aGr"/>
+                            <constraint firstItem="X14-xY-gij" firstAttribute="centerX" secondItem="f3X-g9-MPM" secondAttribute="centerX" id="bVL-RX-EMQ"/>
+                            <constraint firstItem="X14-xY-gij" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="112" id="fcd-wL-Ydo"/>
+                            <constraint firstItem="HlD-Od-kD5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-28" id="jrC-ob-C3E"/>
+                            <constraint firstItem="Vo8-Nd-4Dx" firstAttribute="top" secondItem="gsc-p8-TAi" secondAttribute="bottom" constant="78" id="lKG-QW-5xY"/>
+                            <constraint firstItem="HlD-Od-kD5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="new-Y9-Yy3"/>
+                            <constraint firstItem="f3X-g9-MPM" firstAttribute="top" secondItem="X14-xY-gij" secondAttribute="bottom" constant="81" id="xaF-hA-c8Q"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="FZN-Do-RhC"/>
+                    <connections>
+                        <outlet property="LoginButton" destination="Vo8-Nd-4Dx" id="CbS-MS-l33"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="660" y="68.815592203898049"/>
+        </scene>
+        <!--Create Trip View Controller-->
+        <scene sceneID="LOa-o6-chH">
+            <objects>
+                <viewController id="tpW-kb-RwL" customClass="CreateTripViewController" customModule="TripIt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IUh-xo-oIp"/>
+                        <viewControllerLayoutGuide type="bottom" id="1os-Bd-kFB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DSe-QQ-ObY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyQ-ki-zib">
+                                <rect key="frame" x="68" y="572" width="229" height="76"/>
+                                <fontDescription key="fontDescription" name="Lobster1.3" family="Lobster 1.3" pointSize="40"/>
+                                <state key="normal" title="Create Trip"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1os-Bd-kFB" firstAttribute="top" secondItem="RyQ-ki-zib" secondAttribute="bottom" constant="19" id="6s7-Pe-ZGA"/>
+                            <constraint firstItem="RyQ-ki-zib" firstAttribute="leading" secondItem="DSe-QQ-ObY" secondAttribute="leadingMargin" constant="52" id="buI-ba-5ht"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RyQ-ki-zib" secondAttribute="trailing" constant="62" id="gH8-nH-6Ba"/>
+                            <constraint firstItem="RyQ-ki-zib" firstAttribute="top" secondItem="IUh-xo-oIp" secondAttribute="bottom" constant="508" id="pgX-YM-FVB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="CreateTripButton" destination="RyQ-ki-zib" id="nfV-BC-hbc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gvy-cU-9eC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1333.5999999999999" y="68.815592203898049"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4l9-iB-TAS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dvG-9p-uF3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="elF-fI-39A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ARs-N4-brN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PDb-5l-Aaa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8.8000000000000007" y="68.815592203898049"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="facebook_logo.png" width="400" height="400"/>
+        <image name="gradient.png" width="422" height="691"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="doI-46-pPh"/>
+    </inferredMetricsTieBreakers>
 </document>

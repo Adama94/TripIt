@@ -10,18 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var LoginButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.navigationController?.navigationBar.titleTextAttributes = [ NSFontAttributeName: UIFont(name: "Lobster1.3", size: 22)!]
         
-        // Just adding a comment to check git change status
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationItem.title = "Welcome to TripIt!"
+        
+//        LoginButton.layer.borderWidth = 1
+//        LoginButton.layer.cornerRadius = 5
+//        LoginButton.layer.borderColor = UIColor.black.cgColor
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        navigationItem.title = nil
+    }
 }
 
