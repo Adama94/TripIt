@@ -51,7 +51,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vo8-Nd-4Dx">
                                 <rect key="frame" x="118" y="596" width="138" height="52"/>
@@ -130,18 +130,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient.png" translatesAutoresizingMaskIntoConstraints="NO" id="FF2-UR-W3G">
+                                <rect key="frame" x="-6" y="-7" width="387" height="680"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyQ-ki-zib">
-                                <rect key="frame" x="68" y="572" width="229" height="76"/>
+                                <rect key="frame" x="73" y="595" width="229" height="52"/>
                                 <fontDescription key="fontDescription" name="Lobster1.3" family="Lobster 1.3" pointSize="40"/>
                                 <state key="normal" title="Create Trip"/>
+                                <connections>
+                                    <segue destination="KE8-7y-Qp1" kind="show" id="lLQ-tS-qjT"/>
+                                </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Trip name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WfR-JX-lEE">
+                                <rect key="frame" x="80" y="504" width="215" height="30"/>
+                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <color key="tintColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SJA-yz-DkI">
+                                <rect key="frame" x="-3" y="125" width="381" height="165"/>
+                                <connections>
+                                    <segue destination="UJR-fy-26C" kind="embed" id="TRM-cv-vjq"/>
+                                </connections>
+                            </containerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a name for your trip!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4M9-23-PeR">
+                                <rect key="frame" x="68" y="403" width="246" height="24"/>
+                                <fontDescription key="fontDescription" name="Lobster1.3" family="Lobster 1.3" pointSize="24"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discover destinations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fql-On-ZRb">
+                                <rect key="frame" x="41" y="72" width="292" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="f5O-Ms-zf0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lobster1.3" family="Lobster 1.3" pointSize="26"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1os-Bd-kFB" firstAttribute="top" secondItem="RyQ-ki-zib" secondAttribute="bottom" constant="19" id="6s7-Pe-ZGA"/>
-                            <constraint firstItem="RyQ-ki-zib" firstAttribute="leading" secondItem="DSe-QQ-ObY" secondAttribute="leadingMargin" constant="52" id="buI-ba-5ht"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="RyQ-ki-zib" secondAttribute="trailing" constant="62" id="gH8-nH-6Ba"/>
-                            <constraint firstItem="RyQ-ki-zib" firstAttribute="top" secondItem="IUh-xo-oIp" secondAttribute="bottom" constant="508" id="pgX-YM-FVB"/>
+                            <constraint firstItem="FF2-UR-W3G" firstAttribute="top" secondItem="DSe-QQ-ObY" secondAttribute="topMargin" constant="-7" id="2T8-wo-hcE"/>
+                            <constraint firstItem="WfR-JX-lEE" firstAttribute="centerX" secondItem="RyQ-ki-zib" secondAttribute="centerX" id="5os-hl-gLq"/>
+                            <constraint firstItem="WfR-JX-lEE" firstAttribute="leading" secondItem="DSe-QQ-ObY" secondAttribute="leadingMargin" constant="64" id="A7p-m1-0uN"/>
+                            <constraint firstItem="4M9-23-PeR" firstAttribute="leading" secondItem="DSe-QQ-ObY" secondAttribute="leadingMargin" constant="52" id="AwM-m3-UYo"/>
+                            <constraint firstItem="WfR-JX-lEE" firstAttribute="top" secondItem="4M9-23-PeR" secondAttribute="bottom" constant="77" id="Dh0-ZI-Mbp"/>
+                            <constraint firstAttribute="bottom" secondItem="SJA-yz-DkI" secondAttribute="bottom" constant="377" id="Dsc-If-l7i"/>
+                            <constraint firstItem="SJA-yz-DkI" firstAttribute="top" secondItem="fql-On-ZRb" secondAttribute="bottom" constant="8" symbolic="YES" id="Fta-Ow-Yaj"/>
+                            <constraint firstItem="fql-On-ZRb" firstAttribute="leading" secondItem="DSe-QQ-ObY" secondAttribute="leadingMargin" constant="25" id="Hiu-ay-XfW"/>
+                            <constraint firstItem="fql-On-ZRb" firstAttribute="top" secondItem="IUh-xo-oIp" secondAttribute="bottom" constant="8" symbolic="YES" id="Rqo-9I-huG"/>
+                            <constraint firstItem="RyQ-ki-zib" firstAttribute="leading" secondItem="DSe-QQ-ObY" secondAttribute="leadingMargin" constant="57" id="SHo-5z-Rf2"/>
+                            <constraint firstItem="FF2-UR-W3G" firstAttribute="centerY" secondItem="DSe-QQ-ObY" secondAttribute="centerY" id="bG5-pA-iXF"/>
+                            <constraint firstItem="FF2-UR-W3G" firstAttribute="leading" secondItem="DSe-QQ-ObY" secondAttribute="leadingMargin" constant="-22" id="dCp-A3-95D"/>
+                            <constraint firstItem="RyQ-ki-zib" firstAttribute="top" secondItem="WfR-JX-lEE" secondAttribute="bottom" constant="61" id="dOW-e6-vUU"/>
+                            <constraint firstItem="fql-On-ZRb" firstAttribute="centerX" secondItem="SJA-yz-DkI" secondAttribute="centerX" id="ehu-3z-Lqu"/>
+                            <constraint firstItem="SJA-yz-DkI" firstAttribute="leading" secondItem="DSe-QQ-ObY" secondAttribute="leadingMargin" constant="-19" id="eof-3b-ERz"/>
+                            <constraint firstItem="SJA-yz-DkI" firstAttribute="centerX" secondItem="WfR-JX-lEE" secondAttribute="centerX" id="h8P-pd-2J0"/>
+                            <constraint firstItem="FF2-UR-W3G" firstAttribute="centerX" secondItem="fql-On-ZRb" secondAttribute="centerX" id="hIo-aO-4pE"/>
+                            <constraint firstAttribute="bottom" secondItem="RyQ-ki-zib" secondAttribute="bottom" constant="20" symbolic="YES" id="n9H-EM-lo1"/>
+                            <constraint firstItem="fql-On-ZRb" firstAttribute="centerX" secondItem="DSe-QQ-ObY" secondAttribute="centerX" id="tQz-AE-qig"/>
                         </constraints>
                     </view>
                     <connections>
@@ -170,10 +220,115 @@
             </objects>
             <point key="canvasLocation" x="8.8000000000000007" y="68.815592203898049"/>
         </scene>
+        <!--Discover Destinations View Controller-->
+        <scene sceneID="LWX-08-N3I">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="UJR-fy-26C" customClass="DiscoverDestinationsViewController" customModule="TripIt" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ikc-HJ-hDq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2126" y="-126"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7fT-Ne-PDt">
+            <objects>
+                <viewController id="KE8-7y-Qp1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sIg-H9-Jcf"/>
+                        <viewControllerLayoutGuide type="bottom" id="P0b-kI-7xD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rwN-t0-DCs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BUZ-wg-u4R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1334" y="765"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TBC-TT-J09">
+            <objects>
+                <viewController storyboardIdentifier="CaboViewController" id="kNN-Wh-PBg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pWg-Wq-jjN"/>
+                        <viewControllerLayoutGuide type="bottom" id="fjR-49-ywQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="THj-IV-tCT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cabo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kf2-ZX-1qg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cabo, MX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grZ-a0-7hu" userLabel="Cabo, MX">
+                                <rect key="frame" x="133" y="619" width="108" height="28"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kf2-ZX-1qg" secondAttribute="trailing" id="0Lk-Ke-eQI"/>
+                            <constraint firstItem="kf2-ZX-1qg" firstAttribute="leading" secondItem="THj-IV-tCT" secondAttribute="leading" id="5qb-O1-HrN"/>
+                            <constraint firstItem="kf2-ZX-1qg" firstAttribute="bottom" secondItem="fjR-49-ywQ" secondAttribute="top" id="Gnf-h5-GU8"/>
+                            <constraint firstItem="kf2-ZX-1qg" firstAttribute="centerX" secondItem="grZ-a0-7hu" secondAttribute="centerX" id="Y4H-ar-Ba6"/>
+                            <constraint firstAttribute="bottom" secondItem="grZ-a0-7hu" secondAttribute="bottom" constant="20" symbolic="YES" id="gW1-nb-ZHM"/>
+                            <constraint firstItem="kf2-ZX-1qg" firstAttribute="top" secondItem="THj-IV-tCT" secondAttribute="top" id="glv-2B-Mun"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4az-jK-LAu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2783" y="-352"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ooS-9H-8by">
+            <objects>
+                <viewController storyboardIdentifier="MauiViewController" id="BtU-mD-Jve" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Blf-fO-GOq"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sdd-PT-Syn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EBh-Oa-da7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maui.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="471-w1-muC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maui, HI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jkb-F5-ljr" userLabel="Cabo, MX">
+                                <rect key="frame" x="122" y="619" width="131" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="lGx-Ar-cHv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="471-w1-muC" firstAttribute="top" secondItem="EBh-Oa-da7" secondAttribute="top" id="3af-sE-ICq"/>
+                            <constraint firstItem="471-w1-muC" firstAttribute="leading" secondItem="EBh-Oa-da7" secondAttribute="leading" id="62e-Ch-SDu"/>
+                            <constraint firstItem="471-w1-muC" firstAttribute="bottom" secondItem="Sdd-PT-Syn" secondAttribute="top" id="ORB-ak-kAa"/>
+                            <constraint firstAttribute="bottom" secondItem="Jkb-F5-ljr" secondAttribute="bottom" constant="20" symbolic="YES" id="cm3-52-VZE"/>
+                            <constraint firstAttribute="trailing" secondItem="471-w1-muC" secondAttribute="trailing" id="enH-dQ-MCK"/>
+                            <constraint firstItem="471-w1-muC" firstAttribute="centerX" secondItem="Jkb-F5-ljr" secondAttribute="centerX" id="k6V-W5-F68"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ddr-FM-Lrl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3439" y="-352"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="cabo.jpg" width="1400" height="933"/>
         <image name="facebook_logo.png" width="400" height="400"/>
         <image name="gradient.png" width="422" height="691"/>
+        <image name="maui.jpg" width="690" height="380"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="doI-46-pPh"/>

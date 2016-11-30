@@ -11,6 +11,7 @@
 		660D17441DEE371800D167F4 /* Lobster_1.3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 660D17431DEE36B500D167F4 /* Lobster_1.3.otf */; };
 		660D17461DEE3C2600D167F4 /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 660D17451DEE3C2600D167F4 /* gradient.png */; };
 		660D17481DEE3F8D00D167F4 /* facebook_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 660D17471DEE3F8D00D167F4 /* facebook_logo.png */; };
+		660D174A1DEE495C00D167F4 /* DiscoverDestinationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D17491DEE495C00D167F4 /* DiscoverDestinationsViewController.swift */; };
 		666E5C2C1DD45571005156D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5C2B1DD45571005156D7 /* AppDelegate.swift */; };
 		666E5C2E1DD45571005156D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5C2D1DD45571005156D7 /* ViewController.swift */; };
 		666E5C311DD45571005156D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666E5C2F1DD45571005156D7 /* Main.storyboard */; };
@@ -18,6 +19,9 @@
 		666E5C361DD45571005156D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666E5C341DD45571005156D7 /* LaunchScreen.storyboard */; };
 		666E5C411DD45571005156D7 /* TripItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5C401DD45571005156D7 /* TripItTests.swift */; };
 		666E5C4C1DD45571005156D7 /* TripItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5C4B1DD45571005156D7 /* TripItUITests.swift */; };
+		66CD7C5D1DEF8ACE00BDBA63 /* cabo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66CD7C5C1DEF8ACE00BDBA63 /* cabo.jpg */; };
+		66CD7C5F1DEF8CD500BDBA63 /* maui.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66CD7C5E1DEF8CD500BDBA63 /* maui.jpg */; };
+		66CD7C611DEF8F4A00BDBA63 /* SearchFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD7C601DEF8F4A00BDBA63 /* SearchFriendsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,7 @@
 		660D17431DEE36B500D167F4 /* Lobster_1.3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Lobster_1.3.otf; path = ../../../../Downloads/Lobster_1.3.otf; sourceTree = "<group>"; };
 		660D17451DEE3C2600D167F4 /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gradient.png; path = ../../../../Downloads/gradient.png; sourceTree = "<group>"; };
 		660D17471DEE3F8D00D167F4 /* facebook_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_logo.png; path = ../../../../Desktop/facebook_logo.png; sourceTree = "<group>"; };
+		660D17491DEE495C00D167F4 /* DiscoverDestinationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverDestinationsViewController.swift; sourceTree = "<group>"; };
 		666E5C281DD45571005156D7 /* TripIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E5C2B1DD45571005156D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		666E5C2D1DD45571005156D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +60,9 @@
 		666E5C471DD45571005156D7 /* TripItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E5C4B1DD45571005156D7 /* TripItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripItUITests.swift; sourceTree = "<group>"; };
 		666E5C4D1DD45571005156D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66CD7C5C1DEF8ACE00BDBA63 /* cabo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cabo.jpg; path = ../../../../Desktop/cabo.jpg; sourceTree = "<group>"; };
+		66CD7C5E1DEF8CD500BDBA63 /* maui.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maui.jpg; path = ../../../../Desktop/maui.jpg; sourceTree = "<group>"; };
+		66CD7C601DEF8F4A00BDBA63 /* SearchFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFriendsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +116,15 @@
 				666E5C2B1DD45571005156D7 /* AppDelegate.swift */,
 				666E5C2D1DD45571005156D7 /* ViewController.swift */,
 				666E5C2F1DD45571005156D7 /* Main.storyboard */,
+				660D17491DEE495C00D167F4 /* DiscoverDestinationsViewController.swift */,
 				660D17411DEE2EDF00D167F4 /* CreateTripViewController.swift */,
+				66CD7C601DEF8F4A00BDBA63 /* SearchFriendsViewController.swift */,
 				666E5C321DD45571005156D7 /* Assets.xcassets */,
 				660D17451DEE3C2600D167F4 /* gradient.png */,
 				660D17431DEE36B500D167F4 /* Lobster_1.3.otf */,
+				66CD7C5E1DEF8CD500BDBA63 /* maui.jpg */,
 				660D17471DEE3F8D00D167F4 /* facebook_logo.png */,
+				66CD7C5C1DEF8ACE00BDBA63 /* cabo.jpg */,
 				666E5C341DD45571005156D7 /* LaunchScreen.storyboard */,
 				666E5C371DD45571005156D7 /* Info.plist */,
 			);
@@ -247,6 +259,8 @@
 				666E5C361DD45571005156D7 /* LaunchScreen.storyboard in Resources */,
 				666E5C331DD45571005156D7 /* Assets.xcassets in Resources */,
 				660D17441DEE371800D167F4 /* Lobster_1.3.otf in Resources */,
+				66CD7C5F1DEF8CD500BDBA63 /* maui.jpg in Resources */,
+				66CD7C5D1DEF8ACE00BDBA63 /* cabo.jpg in Resources */,
 				660D17461DEE3C2600D167F4 /* gradient.png in Resources */,
 				660D17481DEE3F8D00D167F4 /* facebook_logo.png in Resources */,
 				666E5C311DD45571005156D7 /* Main.storyboard in Resources */,
@@ -276,6 +290,8 @@
 			files = (
 				666E5C2E1DD45571005156D7 /* ViewController.swift in Sources */,
 				666E5C2C1DD45571005156D7 /* AppDelegate.swift in Sources */,
+				660D174A1DEE495C00D167F4 /* DiscoverDestinationsViewController.swift in Sources */,
+				66CD7C611DEF8F4A00BDBA63 /* SearchFriendsViewController.swift in Sources */,
 				660D17421DEE2EDF00D167F4 /* CreateTripViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
