@@ -81,9 +81,7 @@ extension DiscoverDestinationsViewController: UIPageViewControllerDataSource {
         
         let nextIndex = viewControllerIndex + 1
         let orderedViewControllersCount = orderedViewControllers.count
-        
-        // User is on the last view controller and swiped right to loop to
-        // the first view controller.
+                
         guard orderedViewControllersCount != nextIndex else {
             return orderedViewControllers.first
         }
@@ -95,4 +93,16 @@ extension DiscoverDestinationsViewController: UIPageViewControllerDataSource {
         return orderedViewControllers[nextIndex]
     }
     
+    func presentationCountForPageViewController(pageViewController: UIPageViewController) -> Int {
+        return orderedViewControllers.count
+    }
+    
+    func presentationIndexForPageViewController(pageViewController: UIPageViewController) -> Int {
+        guard let firstViewController = viewControllers?.first,
+            let firstViewControllerIndex = orderedViewControllers.index(of: firstViewController) else {
+                return 0
+        }
+        
+        return firstViewControllerIndex
+    }
 }
