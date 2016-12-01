@@ -11,6 +11,7 @@ import UIKit
 class CreateTripViewController: UIViewController {
 
     @IBOutlet weak var CreateTripButton: UIButton!
+    @IBOutlet weak var tripNameTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,11 +20,7 @@ class CreateTripViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationItem.title = "Create Trip!"
-        
-//        CreateTripButton.layer.borderWidth = 1
-//        CreateTripButton.layer.cornerRadius = 5
-//        CreateTripButton.layer.borderColor = UIColor.black.cgColor
-        
+            
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,6 +29,8 @@ class CreateTripViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         navigationItem.title = nil
-        
+        if let destinationVC = segue.destination as? SearchViewController {
+            destinationVC.tripName = tripNameTextField.text
+        }
     }
 }

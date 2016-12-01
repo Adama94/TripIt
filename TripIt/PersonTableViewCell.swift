@@ -12,6 +12,9 @@ class PersonTableViewCell: UITableViewCell {
 
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var invite: UIButton!
+    @IBOutlet weak var thumbnailImage: UIImageView!
+    
+    
     var isTouched = false
     
     var blue = UIColor(red: 77.0/255.0, green: 184.0/255.0, blue: 255.0/255.0, alpha: 1.0)

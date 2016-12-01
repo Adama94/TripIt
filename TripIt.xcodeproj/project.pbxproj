@@ -23,6 +23,15 @@
 		66CD7C5F1DEF8CD500BDBA63 /* maui.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66CD7C5E1DEF8CD500BDBA63 /* maui.jpg */; };
 		66CD7C671DEF9C7E00BDBA63 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD7C661DEF9C7E00BDBA63 /* PersonTableViewCell.swift */; };
 		66CD7C691DEFA15300BDBA63 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD7C681DEFA15300BDBA63 /* SearchViewController.swift */; };
+		66F9B5021DEFD77F0001D959 /* adam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66F9B5011DEFD77F0001D959 /* adam.jpg */; };
+		66F9B5041DEFD7850001D959 /* eric.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66F9B5031DEFD7850001D959 /* eric.jpg */; };
+		66F9B5071DEFD78C0001D959 /* ryan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66F9B5051DEFD78C0001D959 /* ryan.jpg */; };
+		66F9B5081DEFD78C0001D959 /* seth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66F9B5061DEFD78C0001D959 /* seth.jpg */; };
+		66F9B50A1DEFDC010001D959 /* tina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66F9B5091DEFDC010001D959 /* tina.jpg */; };
+		66F9B50C1DEFDC0C0001D959 /* nicole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66F9B50B1DEFDC0C0001D959 /* nicole.jpg */; };
+		66F9B50E1DEFDC120001D959 /* erica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66F9B50D1DEFDC120001D959 /* erica.jpg */; };
+		66F9B5101DEFDC160001D959 /* bj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66F9B50F1DEFDC160001D959 /* bj.jpg */; };
+		66F9B5121DEFDF3C0001D959 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F9B5111DEFDF3C0001D959 /* MainMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +74,15 @@
 		66CD7C5E1DEF8CD500BDBA63 /* maui.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maui.jpg; path = ../../../../Desktop/maui.jpg; sourceTree = "<group>"; };
 		66CD7C661DEF9C7E00BDBA63 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		66CD7C681DEFA15300BDBA63 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		66F9B5011DEFD77F0001D959 /* adam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = adam.jpg; path = ../../../../Desktop/adam.jpg; sourceTree = "<group>"; };
+		66F9B5031DEFD7850001D959 /* eric.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eric.jpg; path = ../../../../Desktop/eric.jpg; sourceTree = "<group>"; };
+		66F9B5051DEFD78C0001D959 /* ryan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ryan.jpg; path = ../../../../Desktop/ryan.jpg; sourceTree = "<group>"; };
+		66F9B5061DEFD78C0001D959 /* seth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = seth.jpg; path = ../../../../Desktop/seth.jpg; sourceTree = "<group>"; };
+		66F9B5091DEFDC010001D959 /* tina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tina.jpg; path = ../../../../Desktop/tina.jpg; sourceTree = "<group>"; };
+		66F9B50B1DEFDC0C0001D959 /* nicole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nicole.jpg; path = ../../../../Desktop/nicole.jpg; sourceTree = "<group>"; };
+		66F9B50D1DEFDC120001D959 /* erica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = erica.jpg; path = ../../../../Desktop/erica.jpg; sourceTree = "<group>"; };
+		66F9B50F1DEFDC160001D959 /* bj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bj.jpg; path = ../../../../Desktop/bj.jpg; sourceTree = "<group>"; };
+		66F9B5111DEFDF3C0001D959 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,14 +137,23 @@
 				666E5C2B1DD45571005156D7 /* AppDelegate.swift */,
 				666E5C2D1DD45571005156D7 /* ViewController.swift */,
 				666E5C2F1DD45571005156D7 /* Main.storyboard */,
+				66F9B5111DEFDF3C0001D959 /* MainMenuViewController.swift */,
 				66CD7C661DEF9C7E00BDBA63 /* PersonTableViewCell.swift */,
 				660D17491DEE495C00D167F4 /* DiscoverDestinationsViewController.swift */,
 				660D17411DEE2EDF00D167F4 /* CreateTripViewController.swift */,
 				666E5C321DD45571005156D7 /* Assets.xcassets */,
+				66F9B5051DEFD78C0001D959 /* ryan.jpg */,
+				66F9B5061DEFD78C0001D959 /* seth.jpg */,
 				660D17451DEE3C2600D167F4 /* gradient.png */,
 				660D17431DEE36B500D167F4 /* Lobster_1.3.otf */,
 				66CD7C5E1DEF8CD500BDBA63 /* maui.jpg */,
+				66F9B5031DEFD7850001D959 /* eric.jpg */,
+				66F9B50F1DEFDC160001D959 /* bj.jpg */,
+				66F9B50B1DEFDC0C0001D959 /* nicole.jpg */,
 				660D17471DEE3F8D00D167F4 /* facebook_logo.png */,
+				66F9B50D1DEFDC120001D959 /* erica.jpg */,
+				66F9B5091DEFDC010001D959 /* tina.jpg */,
+				66F9B5011DEFD77F0001D959 /* adam.jpg */,
 				66CD7C5C1DEF8ACE00BDBA63 /* cabo.jpg */,
 				666E5C341DD45571005156D7 /* LaunchScreen.storyboard */,
 				666E5C371DD45571005156D7 /* Info.plist */,
@@ -260,10 +287,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				666E5C361DD45571005156D7 /* LaunchScreen.storyboard in Resources */,
+				66F9B5101DEFDC160001D959 /* bj.jpg in Resources */,
+				66F9B50A1DEFDC010001D959 /* tina.jpg in Resources */,
 				666E5C331DD45571005156D7 /* Assets.xcassets in Resources */,
 				660D17441DEE371800D167F4 /* Lobster_1.3.otf in Resources */,
 				66CD7C5F1DEF8CD500BDBA63 /* maui.jpg in Resources */,
+				66F9B50E1DEFDC120001D959 /* erica.jpg in Resources */,
+				66F9B5021DEFD77F0001D959 /* adam.jpg in Resources */,
+				66F9B5071DEFD78C0001D959 /* ryan.jpg in Resources */,
+				66F9B50C1DEFDC0C0001D959 /* nicole.jpg in Resources */,
 				66CD7C5D1DEF8ACE00BDBA63 /* cabo.jpg in Resources */,
+				66F9B5081DEFD78C0001D959 /* seth.jpg in Resources */,
+				66F9B5041DEFD7850001D959 /* eric.jpg in Resources */,
 				660D17461DEE3C2600D167F4 /* gradient.png in Resources */,
 				660D17481DEE3F8D00D167F4 /* facebook_logo.png in Resources */,
 				666E5C311DD45571005156D7 /* Main.storyboard in Resources */,
@@ -295,6 +330,7 @@
 				66CD7C691DEFA15300BDBA63 /* SearchViewController.swift in Sources */,
 				666E5C2E1DD45571005156D7 /* ViewController.swift in Sources */,
 				666E5C2C1DD45571005156D7 /* AppDelegate.swift in Sources */,
+				66F9B5121DEFDF3C0001D959 /* MainMenuViewController.swift in Sources */,
 				660D174A1DEE495C00D167F4 /* DiscoverDestinationsViewController.swift in Sources */,
 				660D17421DEE2EDF00D167F4 /* CreateTripViewController.swift in Sources */,
 			);
