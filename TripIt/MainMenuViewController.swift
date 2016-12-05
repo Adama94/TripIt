@@ -51,5 +51,9 @@ class MainMenuViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         navigationItem.title = nil
         
+        if let destinationVC = segue.destination as? LocationSelectionViewController {
+            destinationVC.tripName = tripName
+        }
+        
     }
 }

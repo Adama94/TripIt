@@ -12,6 +12,12 @@
 		660D17461DEE3C2600D167F4 /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 660D17451DEE3C2600D167F4 /* gradient.png */; };
 		660D17481DEE3F8D00D167F4 /* facebook_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 660D17471DEE3F8D00D167F4 /* facebook_logo.png */; };
 		660D174A1DEE495C00D167F4 /* DiscoverDestinationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D17491DEE495C00D167F4 /* DiscoverDestinationsViewController.swift */; };
+		6629E6311DF53356002E4DE7 /* thumbs-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 6629E6301DF53356002E4DE7 /* thumbs-up.png */; };
+		6629E6351DF538C2002E4DE7 /* green-thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 6629E6341DF538C2002E4DE7 /* green-thumb.png */; };
+		6629E6371DF53BFE002E4DE7 /* thumbs-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 6629E6361DF53BFE002E4DE7 /* thumbs-down.png */; };
+		6629E6391DF53CAA002E4DE7 /* red-thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 6629E6381DF53CAA002E4DE7 /* red-thumb.png */; };
+		662D90151DF5124900F358AE /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 662D90141DF5124900F358AE /* plus.png */; };
+		662D90171DF5135C00F358AE /* AddDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662D90161DF5135C00F358AE /* AddDateViewController.swift */; };
 		666E5C2C1DD45571005156D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5C2B1DD45571005156D7 /* AppDelegate.swift */; };
 		666E5C2E1DD45571005156D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5C2D1DD45571005156D7 /* ViewController.swift */; };
 		666E5C311DD45571005156D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666E5C2F1DD45571005156D7 /* Main.storyboard */; };
@@ -19,10 +25,17 @@
 		666E5C361DD45571005156D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666E5C341DD45571005156D7 /* LaunchScreen.storyboard */; };
 		666E5C411DD45571005156D7 /* TripItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5C401DD45571005156D7 /* TripItTests.swift */; };
 		666E5C4C1DD45571005156D7 /* TripItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5C4B1DD45571005156D7 /* TripItUITests.swift */; };
+		66B6CD651DF5069E00D886DC /* LocationSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B6CD641DF5069E00D886DC /* LocationSelectionViewController.swift */; };
+		66B6CD671DF50BC700D886DC /* LocationSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B6CD661DF50BC700D886DC /* LocationSelectionTableViewCell.swift */; };
 		66CD7C5D1DEF8ACE00BDBA63 /* cabo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66CD7C5C1DEF8ACE00BDBA63 /* cabo.jpg */; };
 		66CD7C5F1DEF8CD500BDBA63 /* maui.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66CD7C5E1DEF8CD500BDBA63 /* maui.jpg */; };
 		66CD7C671DEF9C7E00BDBA63 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD7C661DEF9C7E00BDBA63 /* PersonTableViewCell.swift */; };
 		66CD7C691DEFA15300BDBA63 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD7C681DEFA15300BDBA63 /* SearchViewController.swift */; };
+		66D789861DF51A2D00403F3C /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66D789851DF51A2D00403F3C /* white.jpg */; };
+		66E1208B1DF5218100A0D501 /* dubrovnik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66E1208A1DF5218100A0D501 /* dubrovnik.jpg */; };
+		66E1208D1DF5218600A0D501 /* ometepe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66E1208C1DF5218600A0D501 /* ometepe.jpg */; };
+		66E1208F1DF5218C00A0D501 /* hong kong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66E1208E1DF5218C00A0D501 /* hong kong.jpg */; };
+		66E120911DF5228600A0D501 /* AddLocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E120901DF5228600A0D501 /* AddLocationTableViewCell.swift */; };
 		66F9B5021DEFD77F0001D959 /* adam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66F9B5011DEFD77F0001D959 /* adam.jpg */; };
 		66F9B5041DEFD7850001D959 /* eric.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66F9B5031DEFD7850001D959 /* eric.jpg */; };
 		66F9B5071DEFD78C0001D959 /* ryan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66F9B5051DEFD78C0001D959 /* ryan.jpg */; };
@@ -57,6 +70,12 @@
 		660D17451DEE3C2600D167F4 /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gradient.png; path = ../../../../Downloads/gradient.png; sourceTree = "<group>"; };
 		660D17471DEE3F8D00D167F4 /* facebook_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_logo.png; path = ../../../../Desktop/facebook_logo.png; sourceTree = "<group>"; };
 		660D17491DEE495C00D167F4 /* DiscoverDestinationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverDestinationsViewController.swift; sourceTree = "<group>"; };
+		6629E6301DF53356002E4DE7 /* thumbs-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbs-up.png"; path = "../../../../Desktop/thumbs-up.png"; sourceTree = "<group>"; };
+		6629E6341DF538C2002E4DE7 /* green-thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "green-thumb.png"; path = "../../../../Desktop/green-thumb.png"; sourceTree = "<group>"; };
+		6629E6361DF53BFE002E4DE7 /* thumbs-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbs-down.png"; path = "../../../../Desktop/thumbs-down.png"; sourceTree = "<group>"; };
+		6629E6381DF53CAA002E4DE7 /* red-thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red-thumb.png"; path = "../../../../Desktop/red-thumb.png"; sourceTree = "<group>"; };
+		662D90141DF5124900F358AE /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus.png; path = ../../../../Desktop/plus.png; sourceTree = "<group>"; };
+		662D90161DF5135C00F358AE /* AddDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDateViewController.swift; sourceTree = "<group>"; };
 		666E5C281DD45571005156D7 /* TripIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E5C2B1DD45571005156D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		666E5C2D1DD45571005156D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,10 +89,17 @@
 		666E5C471DD45571005156D7 /* TripItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E5C4B1DD45571005156D7 /* TripItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripItUITests.swift; sourceTree = "<group>"; };
 		666E5C4D1DD45571005156D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B6CD641DF5069E00D886DC /* LocationSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSelectionViewController.swift; sourceTree = "<group>"; };
+		66B6CD661DF50BC700D886DC /* LocationSelectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSelectionTableViewCell.swift; sourceTree = "<group>"; };
 		66CD7C5C1DEF8ACE00BDBA63 /* cabo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cabo.jpg; path = ../../../../Desktop/cabo.jpg; sourceTree = "<group>"; };
 		66CD7C5E1DEF8CD500BDBA63 /* maui.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maui.jpg; path = ../../../../Desktop/maui.jpg; sourceTree = "<group>"; };
 		66CD7C661DEF9C7E00BDBA63 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		66CD7C681DEFA15300BDBA63 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		66D789851DF51A2D00403F3C /* white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = white.jpg; path = ../../../../Desktop/white.jpg; sourceTree = "<group>"; };
+		66E1208A1DF5218100A0D501 /* dubrovnik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dubrovnik.jpg; path = ../../../../Desktop/dubrovnik.jpg; sourceTree = "<group>"; };
+		66E1208C1DF5218600A0D501 /* ometepe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ometepe.jpg; path = ../../../../Desktop/ometepe.jpg; sourceTree = "<group>"; };
+		66E1208E1DF5218C00A0D501 /* hong kong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hong kong.jpg"; path = "../../../../Desktop/hong kong.jpg"; sourceTree = "<group>"; };
+		66E120901DF5228600A0D501 /* AddLocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationTableViewCell.swift; sourceTree = "<group>"; };
 		66F9B5011DEFD77F0001D959 /* adam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = adam.jpg; path = ../../../../Desktop/adam.jpg; sourceTree = "<group>"; };
 		66F9B5031DEFD7850001D959 /* eric.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eric.jpg; path = ../../../../Desktop/eric.jpg; sourceTree = "<group>"; };
 		66F9B5051DEFD78C0001D959 /* ryan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ryan.jpg; path = ../../../../Desktop/ryan.jpg; sourceTree = "<group>"; };
@@ -137,6 +163,10 @@
 				666E5C2B1DD45571005156D7 /* AppDelegate.swift */,
 				666E5C2D1DD45571005156D7 /* ViewController.swift */,
 				666E5C2F1DD45571005156D7 /* Main.storyboard */,
+				662D90161DF5135C00F358AE /* AddDateViewController.swift */,
+				66E120901DF5228600A0D501 /* AddLocationTableViewCell.swift */,
+				66B6CD641DF5069E00D886DC /* LocationSelectionViewController.swift */,
+				66B6CD661DF50BC700D886DC /* LocationSelectionTableViewCell.swift */,
 				66F9B5111DEFDF3C0001D959 /* MainMenuViewController.swift */,
 				66CD7C661DEF9C7E00BDBA63 /* PersonTableViewCell.swift */,
 				660D17491DEE495C00D167F4 /* DiscoverDestinationsViewController.swift */,
@@ -147,11 +177,20 @@
 				660D17451DEE3C2600D167F4 /* gradient.png */,
 				660D17431DEE36B500D167F4 /* Lobster_1.3.otf */,
 				66CD7C5E1DEF8CD500BDBA63 /* maui.jpg */,
+				6629E6381DF53CAA002E4DE7 /* red-thumb.png */,
 				66F9B5031DEFD7850001D959 /* eric.jpg */,
 				66F9B50F1DEFDC160001D959 /* bj.jpg */,
+				6629E6341DF538C2002E4DE7 /* green-thumb.png */,
+				66E1208E1DF5218C00A0D501 /* hong kong.jpg */,
+				6629E6301DF53356002E4DE7 /* thumbs-up.png */,
+				662D90141DF5124900F358AE /* plus.png */,
+				6629E6361DF53BFE002E4DE7 /* thumbs-down.png */,
+				66E1208C1DF5218600A0D501 /* ometepe.jpg */,
 				66F9B50B1DEFDC0C0001D959 /* nicole.jpg */,
+				66E1208A1DF5218100A0D501 /* dubrovnik.jpg */,
 				660D17471DEE3F8D00D167F4 /* facebook_logo.png */,
 				66F9B50D1DEFDC120001D959 /* erica.jpg */,
+				66D789851DF51A2D00403F3C /* white.jpg */,
 				66F9B5091DEFDC010001D959 /* tina.jpg */,
 				66F9B5011DEFD77F0001D959 /* adam.jpg */,
 				66CD7C5C1DEF8ACE00BDBA63 /* cabo.jpg */,
@@ -287,19 +326,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				666E5C361DD45571005156D7 /* LaunchScreen.storyboard in Resources */,
+				66E1208D1DF5218600A0D501 /* ometepe.jpg in Resources */,
+				662D90151DF5124900F358AE /* plus.png in Resources */,
 				66F9B5101DEFDC160001D959 /* bj.jpg in Resources */,
 				66F9B50A1DEFDC010001D959 /* tina.jpg in Resources */,
 				666E5C331DD45571005156D7 /* Assets.xcassets in Resources */,
+				66E1208F1DF5218C00A0D501 /* hong kong.jpg in Resources */,
 				660D17441DEE371800D167F4 /* Lobster_1.3.otf in Resources */,
 				66CD7C5F1DEF8CD500BDBA63 /* maui.jpg in Resources */,
 				66F9B50E1DEFDC120001D959 /* erica.jpg in Resources */,
+				6629E6371DF53BFE002E4DE7 /* thumbs-down.png in Resources */,
 				66F9B5021DEFD77F0001D959 /* adam.jpg in Resources */,
 				66F9B5071DEFD78C0001D959 /* ryan.jpg in Resources */,
+				66E1208B1DF5218100A0D501 /* dubrovnik.jpg in Resources */,
+				6629E6351DF538C2002E4DE7 /* green-thumb.png in Resources */,
 				66F9B50C1DEFDC0C0001D959 /* nicole.jpg in Resources */,
+				66D789861DF51A2D00403F3C /* white.jpg in Resources */,
 				66CD7C5D1DEF8ACE00BDBA63 /* cabo.jpg in Resources */,
+				6629E6391DF53CAA002E4DE7 /* red-thumb.png in Resources */,
 				66F9B5081DEFD78C0001D959 /* seth.jpg in Resources */,
 				66F9B5041DEFD7850001D959 /* eric.jpg in Resources */,
 				660D17461DEE3C2600D167F4 /* gradient.png in Resources */,
+				6629E6311DF53356002E4DE7 /* thumbs-up.png in Resources */,
 				660D17481DEE3F8D00D167F4 /* facebook_logo.png in Resources */,
 				666E5C311DD45571005156D7 /* Main.storyboard in Resources */,
 			);
@@ -326,11 +374,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66E120911DF5228600A0D501 /* AddLocationTableViewCell.swift in Sources */,
 				66CD7C671DEF9C7E00BDBA63 /* PersonTableViewCell.swift in Sources */,
 				66CD7C691DEFA15300BDBA63 /* SearchViewController.swift in Sources */,
 				666E5C2E1DD45571005156D7 /* ViewController.swift in Sources */,
 				666E5C2C1DD45571005156D7 /* AppDelegate.swift in Sources */,
+				662D90171DF5135C00F358AE /* AddDateViewController.swift in Sources */,
 				66F9B5121DEFDF3C0001D959 /* MainMenuViewController.swift in Sources */,
+				66B6CD651DF5069E00D886DC /* LocationSelectionViewController.swift in Sources */,
+				66B6CD671DF50BC700D886DC /* LocationSelectionTableViewCell.swift in Sources */,
 				660D174A1DEE495C00D167F4 /* DiscoverDestinationsViewController.swift in Sources */,
 				660D17421DEE2EDF00D167F4 /* CreateTripViewController.swift in Sources */,
 			);
