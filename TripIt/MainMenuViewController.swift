@@ -55,5 +55,13 @@ class MainMenuViewController: UIViewController {
             destinationVC.tripName = tripName
         }
         
+        if let destinationVC = segue.destination as? DateSelectionViewController {
+            destinationVC.tripName = tripName
+        }
+        
+        if let destinationVC = segue.destination as? FlightsConfirmationViewController {
+            destinationVC.tripName = tripName
+        }
+        
     }
 }

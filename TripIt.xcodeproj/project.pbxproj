@@ -25,6 +25,8 @@
 		666E5C361DD45571005156D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666E5C341DD45571005156D7 /* LaunchScreen.storyboard */; };
 		666E5C411DD45571005156D7 /* TripItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5C401DD45571005156D7 /* TripItTests.swift */; };
 		666E5C4C1DD45571005156D7 /* TripItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5C4B1DD45571005156D7 /* TripItUITests.swift */; };
+		66B667D11DF76FBE00AD0838 /* DateSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B667D01DF76FBE00AD0838 /* DateSelectionViewController.swift */; };
+		66B667D31DF7756B00AD0838 /* FlightsConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B667D21DF7756B00AD0838 /* FlightsConfirmationViewController.swift */; };
 		66B6CD651DF5069E00D886DC /* LocationSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B6CD641DF5069E00D886DC /* LocationSelectionViewController.swift */; };
 		66B6CD671DF50BC700D886DC /* LocationSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B6CD661DF50BC700D886DC /* LocationSelectionTableViewCell.swift */; };
 		66CD7C5D1DEF8ACE00BDBA63 /* cabo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66CD7C5C1DEF8ACE00BDBA63 /* cabo.jpg */; };
@@ -89,6 +91,8 @@
 		666E5C471DD45571005156D7 /* TripItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E5C4B1DD45571005156D7 /* TripItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripItUITests.swift; sourceTree = "<group>"; };
 		666E5C4D1DD45571005156D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B667D01DF76FBE00AD0838 /* DateSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionViewController.swift; sourceTree = "<group>"; };
+		66B667D21DF7756B00AD0838 /* FlightsConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightsConfirmationViewController.swift; sourceTree = "<group>"; };
 		66B6CD641DF5069E00D886DC /* LocationSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSelectionViewController.swift; sourceTree = "<group>"; };
 		66B6CD661DF50BC700D886DC /* LocationSelectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSelectionTableViewCell.swift; sourceTree = "<group>"; };
 		66CD7C5C1DEF8ACE00BDBA63 /* cabo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cabo.jpg; path = ../../../../Desktop/cabo.jpg; sourceTree = "<group>"; };
@@ -163,9 +167,11 @@
 				666E5C2B1DD45571005156D7 /* AppDelegate.swift */,
 				666E5C2D1DD45571005156D7 /* ViewController.swift */,
 				666E5C2F1DD45571005156D7 /* Main.storyboard */,
+				66B667D21DF7756B00AD0838 /* FlightsConfirmationViewController.swift */,
 				662D90161DF5135C00F358AE /* AddDateViewController.swift */,
 				66E120901DF5228600A0D501 /* AddLocationTableViewCell.swift */,
 				66B6CD641DF5069E00D886DC /* LocationSelectionViewController.swift */,
+				66B667D01DF76FBE00AD0838 /* DateSelectionViewController.swift */,
 				66B6CD661DF50BC700D886DC /* LocationSelectionTableViewCell.swift */,
 				66F9B5111DEFDF3C0001D959 /* MainMenuViewController.swift */,
 				66CD7C661DEF9C7E00BDBA63 /* PersonTableViewCell.swift */,
@@ -381,8 +387,10 @@
 				666E5C2C1DD45571005156D7 /* AppDelegate.swift in Sources */,
 				662D90171DF5135C00F358AE /* AddDateViewController.swift in Sources */,
 				66F9B5121DEFDF3C0001D959 /* MainMenuViewController.swift in Sources */,
+				66B667D31DF7756B00AD0838 /* FlightsConfirmationViewController.swift in Sources */,
 				66B6CD651DF5069E00D886DC /* LocationSelectionViewController.swift in Sources */,
 				66B6CD671DF50BC700D886DC /* LocationSelectionTableViewCell.swift in Sources */,
+				66B667D11DF76FBE00AD0838 /* DateSelectionViewController.swift in Sources */,
 				660D174A1DEE495C00D167F4 /* DiscoverDestinationsViewController.swift in Sources */,
 				660D17421DEE2EDF00D167F4 /* CreateTripViewController.swift in Sources */,
 			);
