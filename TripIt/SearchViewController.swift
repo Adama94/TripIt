@@ -79,6 +79,7 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
             cell.thumbnailImage.layer.cornerRadius = cell.thumbnailImage.frame.size.width / 2.0
             cell.thumbnailImage.layer.masksToBounds = true
             cell.thumbnailImage!.image = person.image
+            
         }
         
         

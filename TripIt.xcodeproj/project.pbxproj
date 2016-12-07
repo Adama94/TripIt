@@ -27,6 +27,8 @@
 		666E5C4C1DD45571005156D7 /* TripItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5C4B1DD45571005156D7 /* TripItUITests.swift */; };
 		66B667D11DF76FBE00AD0838 /* DateSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B667D01DF76FBE00AD0838 /* DateSelectionViewController.swift */; };
 		66B667D31DF7756B00AD0838 /* FlightsConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B667D21DF7756B00AD0838 /* FlightsConfirmationViewController.swift */; };
+		66B667D51DF7797200AD0838 /* flight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66B667D41DF7797200AD0838 /* flight.jpg */; };
+		66B667D71DF77F6B00AD0838 /* DataHoldingNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B667D61DF77F6B00AD0838 /* DataHoldingNavigationViewController.swift */; };
 		66B6CD651DF5069E00D886DC /* LocationSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B6CD641DF5069E00D886DC /* LocationSelectionViewController.swift */; };
 		66B6CD671DF50BC700D886DC /* LocationSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B6CD661DF50BC700D886DC /* LocationSelectionTableViewCell.swift */; };
 		66CD7C5D1DEF8ACE00BDBA63 /* cabo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66CD7C5C1DEF8ACE00BDBA63 /* cabo.jpg */; };
@@ -93,6 +95,8 @@
 		666E5C4D1DD45571005156D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66B667D01DF76FBE00AD0838 /* DateSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionViewController.swift; sourceTree = "<group>"; };
 		66B667D21DF7756B00AD0838 /* FlightsConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightsConfirmationViewController.swift; sourceTree = "<group>"; };
+		66B667D41DF7797200AD0838 /* flight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = flight.jpg; path = ../../../../Desktop/flight.jpg; sourceTree = "<group>"; };
+		66B667D61DF77F6B00AD0838 /* DataHoldingNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHoldingNavigationViewController.swift; sourceTree = "<group>"; };
 		66B6CD641DF5069E00D886DC /* LocationSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSelectionViewController.swift; sourceTree = "<group>"; };
 		66B6CD661DF50BC700D886DC /* LocationSelectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSelectionTableViewCell.swift; sourceTree = "<group>"; };
 		66CD7C5C1DEF8ACE00BDBA63 /* cabo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cabo.jpg; path = ../../../../Desktop/cabo.jpg; sourceTree = "<group>"; };
@@ -172,6 +176,7 @@
 				66E120901DF5228600A0D501 /* AddLocationTableViewCell.swift */,
 				66B6CD641DF5069E00D886DC /* LocationSelectionViewController.swift */,
 				66B667D01DF76FBE00AD0838 /* DateSelectionViewController.swift */,
+				66B667D61DF77F6B00AD0838 /* DataHoldingNavigationViewController.swift */,
 				66B6CD661DF50BC700D886DC /* LocationSelectionTableViewCell.swift */,
 				66F9B5111DEFDF3C0001D959 /* MainMenuViewController.swift */,
 				66CD7C661DEF9C7E00BDBA63 /* PersonTableViewCell.swift */,
@@ -180,6 +185,7 @@
 				666E5C321DD45571005156D7 /* Assets.xcassets */,
 				66F9B5051DEFD78C0001D959 /* ryan.jpg */,
 				66F9B5061DEFD78C0001D959 /* seth.jpg */,
+				66B667D41DF7797200AD0838 /* flight.jpg */,
 				660D17451DEE3C2600D167F4 /* gradient.png */,
 				660D17431DEE36B500D167F4 /* Lobster_1.3.otf */,
 				66CD7C5E1DEF8CD500BDBA63 /* maui.jpg */,
@@ -344,6 +350,7 @@
 				6629E6371DF53BFE002E4DE7 /* thumbs-down.png in Resources */,
 				66F9B5021DEFD77F0001D959 /* adam.jpg in Resources */,
 				66F9B5071DEFD78C0001D959 /* ryan.jpg in Resources */,
+				66B667D51DF7797200AD0838 /* flight.jpg in Resources */,
 				66E1208B1DF5218100A0D501 /* dubrovnik.jpg in Resources */,
 				6629E6351DF538C2002E4DE7 /* green-thumb.png in Resources */,
 				66F9B50C1DEFDC0C0001D959 /* nicole.jpg in Resources */,
@@ -380,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B667D71DF77F6B00AD0838 /* DataHoldingNavigationViewController.swift in Sources */,
 				66E120911DF5228600A0D501 /* AddLocationTableViewCell.swift in Sources */,
 				66CD7C671DEF9C7E00BDBA63 /* PersonTableViewCell.swift in Sources */,
 				66CD7C691DEFA15300BDBA63 /* SearchViewController.swift in Sources */,

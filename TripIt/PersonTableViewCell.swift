@@ -21,8 +21,7 @@ class PersonTableViewCell: UITableViewCell {
     var green = UIColor(red: 130.0/255.0, green: 255.0/255.0, blue: 130.0/255.0, alpha: 1.0)
     
     @IBAction func changeColor(_ sender: Any) {
-        
-
+                
         if isTouched {
             isTouched = false
         } else {

@@ -12,9 +12,12 @@ class DateSelectionViewController: UIViewController {
 
     var tripName: String?
     
+    @IBOutlet weak var startDate: UIDatePicker!
+    @IBOutlet weak var endDate: UIDatePicker!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.setHidesBackButton(true, animated: true)        
+        self.navigationItem.setHidesBackButton(true, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,6 +30,12 @@ class DateSelectionViewController: UIViewController {
     }
     
     @IBAction func done(_ sender: Any) {
+        
+        if let navigationController = self.navigationController as? DataHoldingNavigationViewController {
+            navigationController.startDate = startDate.date
+            navigationController.endDate = endDate.date
+        }
+        
         navigationController?.popViewController(animated: true)
     }
 
