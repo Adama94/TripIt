@@ -112,6 +112,8 @@
                     <navigationItem key="navigationItem" id="FZN-Do-RhC"/>
                     <connections>
                         <outlet property="LoginButton" destination="Vo8-Nd-4Dx" id="CbS-MS-l33"/>
+                        <outlet property="passwordTextField" destination="Q6u-hl-eK8" id="2xs-8M-Hgp"/>
+                        <outlet property="usernameTextField" destination="f3X-g9-MPM" id="ZHs-EN-Ihg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

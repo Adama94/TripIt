@@ -298,6 +298,7 @@
 				TargetAttributes = {
 					666E5C271DD45570005156D7 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = X3VXXQY6A6;
 						ProvisioningStyle = Automatic;
 					};
 					666E5C3B1DD45571005156D7 = {
@@ -550,7 +551,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3VXXQY6A6;
 				INFOPLIST_FILE = TripIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs147.TripIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -562,7 +565,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3VXXQY6A6;
 				INFOPLIST_FILE = TripIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs147.TripIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
